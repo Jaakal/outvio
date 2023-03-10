@@ -1,0 +1,14 @@
+@mixin font-face-swap($name, $folder, $file, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: $name;
+    src: url('#{$folder}/#{$file}.woff2') format('woff2'),
+      url('#{$folder}/#{$file}.woff') format('woff');
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+  }
+}
+
+@include font-face-swap('Inter Regular', '../../../assets/fonts/inter', 'Inter-Regular', normal);
+@include font-face-swap('Inter SemiBold', '../../../assets/fonts/inter', 'Inter-SemiBold', 600);
+@include font-face-swap('Inter Bold', '../../../assets/fonts/inter', 'Inter-Bold', bold);

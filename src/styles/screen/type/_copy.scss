@@ -1,0 +1,24 @@
+.copy-01 {
+  @include fluid-type(12px, 14px);
+  font-family: 'Inter SemiBold';
+  line-height: em-size(38px, 14px);
+}
+
+.copy-02 {
+  @include fluid-type(9px, 12px);
+  font-family: 'Inter SemiBold';
+  line-height: em-size(35px, 12px);
+}
+  
+
+.copy-03 {
+  @include fluid-type(10px, 13px);
+  font-family: 'Inter Regular';
+  line-height: em-size(35px, 13px);
+}
+
+.copy-04 {
+  @include fluid-type(11px, 13px);
+  font-family: 'Inter SemiBold';
+  line-height: em-size(35px, 12px);
+}

@@ -1,0 +1,7 @@
+@use "src/styles/utils" as *;
+
+.statusBackground {
+  padding: 4px 12px;
+  border-radius: 12px;
+  background-color: rgba($color: $colorDugong, $alpha: 0.2);
+}

@@ -1,0 +1,5 @@
+.heading-01 {
+  @include fluid-type(16px, 34px);
+  font-family: 'Inter Bold';
+  line-height: em-size(35px, 34px);
+}

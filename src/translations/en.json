@@ -1,0 +1,53 @@
+{
+  "allOrders": {
+    "mainHeading": "All orders",
+    "tableHeadings": {
+      "id": "Order ID",
+      "date": "Order date",
+      "total": "Order total",
+      "quantity": "Quantity",
+      "status": "Status"
+    },
+    "form": {
+      "submit": {
+        "label": "Search"
+      }
+    },
+    "cta": {
+      "addNewOrder": {
+        "label": "Add New Order"
+      },
+      "sortOrders": {
+        "label": "Sort orders by"
+      },
+      "previous": {
+        "label": "Previous"
+      },
+      "next": {
+        "label": "Next"
+      }
+    }
+  },
+  "addNewOrder": {
+    "mainHeading": "Add order",
+    "form": {
+      "inputs": {
+        "id": "Order ID",
+        "date": "Order date",
+        "total": "Order total",
+        "quantity": "Quantity"
+      },
+      "selectBox": {
+        "status": "Status"
+      },
+      "submit": {
+        "label": "Add order"
+      }
+    },
+    "cta": {
+      "close": {
+        "label": "Close"
+      }
+    }
+  }
+}

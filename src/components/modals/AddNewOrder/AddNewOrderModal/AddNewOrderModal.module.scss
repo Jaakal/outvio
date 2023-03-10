@@ -1,0 +1,65 @@
+@use "src/styles/utils" as *;
+
+.element {
+  position: fixed;
+  width: 100%;
+  height: calc(var(--vh, 1vh) * 100);
+  inset: 0 auto auto 0;
+  background: rgba($color: $colorBlack, $alpha: 0.2);
+  visibility: hidden;
+  opacity: 0;
+
+  &.isVisible {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.modal {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  max-width: calc(100% - 20px);
+  max-height: calc((var(--vh, 1vh) * 100) - 20px);
+  width: fluid-size(355px, 470px);
+  padding: fluid-size(15px, 40px);
+  background-color: $colorWhite;
+  border: 1px solid $colorDarkGrey;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.closeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+
+  svg {
+    width: 35%;
+  }
+}
+
+.addNewOrderForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.addNewOrderInput {
+  margin-bottom: 16px;
+}
+
+.statusSelectBox {
+  margin-bottom: 24px;
+}
+
+.submitButton {
+  align-self: flex-end;
+}

@@ -1,0 +1,9 @@
+@use "src/styles/utils" as *;
+
+.element {
+  height: 40px;
+  border: none;
+  background: $colorGrey;
+  padding: 0 em-size(16, 13);
+  font-family: 'Inter Regular';
+}

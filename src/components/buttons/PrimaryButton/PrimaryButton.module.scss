@@ -1,0 +1,10 @@
+@use "src/styles/utils" as *;
+
+.element {
+  height: 40px;
+  padding: 0 24px;
+  line-height: 1;
+  color: $colorWhite;
+  background-color: $colorBlack;
+  outline-offset: 2px;
+}

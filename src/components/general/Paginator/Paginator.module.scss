@@ -1,0 +1,48 @@
+@use "src/styles/utils" as *;
+
+.element {
+  @include fluid-type(12px, 14px);
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+}
+
+.arrowButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  
+  svg {
+    width: 25%;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+  }
+}
+
+.dotsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: em-size(50, 13);
+}
+
+.dotsElement {
+  padding: em-size(0.5, 13);
+
+  &.isNotActive {
+    opacity: 0.7;
+  }
+  
+  &.isHidden {
+    width: 0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+}
+

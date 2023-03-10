@@ -1,0 +1,26 @@
+@use "src/styles/utils" as *;
+
+.element {
+  position: relative;
+  width: min-content;
+}
+
+.searchInput {
+  max-width: 265px;
+  width: fluid-size(180px, 265px);
+  padding-left: 37px;
+}
+
+.searchButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  inset: 8px auto auto 8px;
+  width: 24px;
+  height: 24px;
+
+  svg {
+    width: 65%;
+  }
+}

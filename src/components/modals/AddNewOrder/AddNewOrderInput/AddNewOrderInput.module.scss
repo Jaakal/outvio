@@ -1,0 +1,13 @@
+@use "src/styles/utils" as *;
+
+.element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 12px;
+}
+
+.input {
+  width: fluid-size(200px, 260px);
+}

@@ -1,0 +1,30 @@
+.element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.arrowIconsWrapper {
+  width: 30%;
+}
+
+.arrowIconWrapper {
+  display: flex;
+  width: 100%;
+  margin: 3px 0;
+
+  svg {
+    width: 100%;
+    overflow: visible;
+  }
+
+  &.isHidden {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+}
+
+
