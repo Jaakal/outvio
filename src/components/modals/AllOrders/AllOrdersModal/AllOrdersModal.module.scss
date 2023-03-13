@@ -19,7 +19,7 @@
   flex: 1;
 }
 
-@media screen and (min-width: $medium) {
+@include respond-to(MEDIUM) {
   .element {
     width: calc(100% - 110px);
     max-height: calc((var(--vh, 1vh) * 100) - 110px);

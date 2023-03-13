@@ -10,4 +10,4 @@ $minimumFluidTypeViewportWidth: 375px;
 $maximumFluidTypeViewportWidth: 1280px;
 
 // Media queries
-$medium: 768px;
+@import '../../data/shared-variables/shared-variables.internal.json';
